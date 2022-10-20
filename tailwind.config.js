@@ -16,10 +16,24 @@ module.exports = {
             opacity: 1,
             transform: "translateY(0)",
           },
+        },
+        fadeDown: {
+          "0%": {
+            opacity: 0,
+            transform: "translateY(-80%)",
+          },
+          "100%": {
+            opacity: 1,
+            transform: "translateY(0)",
+          }
         }
       },
       animation: {
-        fadeIn: "fadeUp 1.2s ease-in-out",
+        fadeUp: "fadeUp 1.2s ease-in-out forwards",
+        fadeUpCut: "fadeUp 2s ease-in-out forwards",
+        fadeUpDelay1: "fadeUp 1.2s ease-in-out forwards 0.2s",
+        fadeUpDelay2: "fadeUp 1.2s ease-in-out forwards 0.4s",
+        fadeDown: "fadeDown 0.6s ease-in-out forwards 1s",
       }
     },
     screens: {
