@@ -28,6 +28,7 @@ body {
     font-variation-settings: "wght" 450;
     font-variant: common-ligatures contextual;
     letter-spacing: -0.02em;
+    padding: 0 0;
 }
 b,
 strong,
@@ -66,4 +67,16 @@ img.next-image {
 
 .nav-line .nav-link {
     color: #69778c;
+}
+
+.background {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url(/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
 }
