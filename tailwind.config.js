@@ -22,6 +22,14 @@ module.exports = {
         fadeIn: "fadeUp 1.2s ease-in-out",
       }
     },
+    screens: {
+      'sm': '0px',
+      // => @media (min-width: 0px) { ... } -> phone
+      'md': '600px',
+      // => @media (min-width: 600px) { ... } -> half-window
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... } -> laptop+
+    },
     plugins: [],
   }
 }
